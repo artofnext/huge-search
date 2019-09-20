@@ -8,34 +8,78 @@
     <meta name="description" content="Beetroot lesson 6 homework - Huge Search">
     <title>Beetroot lesson 6 homework - Huge Search</title>
     <link rel="stylesheet" href="css/styles.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css"> -->
     <link rel="icon" href="img/favicon.png">
 </head>
 <body>
     <div class="container">
-        <div class="search">
-            <div><input type="text" name="search" placeholder="Search..."></div>
-            <div>
-                <button>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px"
-                        preserveAspectRatio="none" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
-                        <circle fill="none" stroke="#ddd" stroke-width="6" stroke-miterlimit="10" cx="23.5" cy="23.5"
-                            r="18.5" />
-                        <line fill="#ddd" stroke="#ddd" stroke-width="6" stroke-miterlimit="10" x1="35" y1="36" x2="56"
-                            y2="57" />
-                    </svg>
-                </button>
+        <form>
+            <div class="search">
+                <div><input type="text" size="11" name="search" placeholder="Search..."></div>
+                <div>
+                    <button type="submit" formaction="https://google.com" formtarget="_blank">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px"
+                            preserveAspectRatio="none" viewBox="0 0 60 60" enable-background="new 0 0 60 60"
+                            xml:space="preserve">
+                            <circle fill="none" stroke="#ddd" stroke-width="6" stroke-miterlimit="10" cx="23.5" cy="23.5"
+                                r="18.5" />
+                            <line fill="#ddd" stroke="#ddd" stroke-width="6" stroke-miterlimit="10" x1="35" y1="36" x2="56"
+                                y2="57" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-        </div>
+        </form>
         <div class="content">
-            <div class="column">
+            <div class="column people">
                 <h2>People</h2>
                 <ul>
                     <li>
                         <a href="#">
+                            <div><img src="img/avatars/SaraSoueidan.jpeg" alt="SaraSoueidan"></div>
+                            <div>
+                                <p>Sara Soueidan</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/avatars/RachelSmith.png" alt="RachelSmith"></div>
+                            <div>
+                                <p>Rachel Smith</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/avatars/PeterFinlan.jpeg" alt="PeterFinlan"></div>
+                            <div>
+                                <p>Peter Finlan</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/avatars/PatrickCox.png" alt="PatrickCox"></div>
+                            <div>
+                                <p>Patrick Cox</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/avatars/TimHolman.jpeg" alt="TimHolman"></div>
+                            <div>
+                                <p>Tim Holman</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
                             <div><img src="img/avatars/ShaunDona.jpeg" alt="ShaunDona"></div>
-                            <div><p>Shaun Dona</p></div>
+                            <div>
+                                <p>Shaun Dona</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -46,7 +90,49 @@
                     <li>
                         <a href="#">
                             <div><img src="img/thumbs/PagePreloadingEffect.png" alt="PagePreloadingEffect"></div>
-                            <div><p>Page Preloading Effect</p></div>
+                            <div>
+                                <p>Page Preloading Effect</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/ArrowNavigationStyles.png" alt="ArrowNavigationStyles"></div>
+                            <div>
+                                <p>Arrow Navigation Styles</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/HoverEffectsIdeasNew.png" alt="HoverEffectsIdeasNew"></div>
+                            <div>
+                                <p>Ideas for Subtle Hover Effects</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/FreebieHalcyonDays.png" alt="FreebieHalcyonDays"></div>
+                            <div>
+                                <p>Halcyon Days Template</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/ArticleIntroEffects.png" alt="ArticleIntroEffects"></div>
+                            <div>
+                                <p>Inspiration for Article Intro Effects</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/DraggableDualViewSlideshow.png" alt="DraggableDualViewSlideshow"></div>
+                            <div>
+                                <p>Draggable Dual View Slideshow</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -57,13 +143,54 @@
                     <li>
                         <a href="#">
                             <div><img src="img/thumbs/TooltipStylesInspiration.png" alt="TooltipStylesInspiration"></div>
-                            <div><p>Tooltip Styles Inspiration</p></div>
+                            <div>
+                                <p>Tooltip Styles Inspiration</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/AnimatedHeaderBackgrounds.png" alt="AnimatedHeaderBackgrounds"></div>
+                            <div>
+                                <p>Animated Header Backgrounds</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/OffCanvas.png" alt="OffCanvas"></div>
+                            <div>
+                                <p>Off-Canvas Menu Effects</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/TabStyles.png" alt="TabStyles"></div>
+                            <div>
+                                <p>Tab Styles Inspiration</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/ResponsiveSVGs.png" alt="ResponsiveSVGs"></div>
+                            <div>
+                                <p>Make SVGs Responsive with CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div><img src="img/thumbs/NotificationStyles.png" alt="NotificationStyles"></div>
+                            <div>
+                                <p>Notification Styles Inspiration</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-
     </div>
 </body>
 </html>
