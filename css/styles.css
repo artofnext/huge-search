@@ -101,3 +101,28 @@ img {
 .people img {
     border-radius: 50%;
 }
+
+@media screen and (max-width: 600px) {
+
+    .content{
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .search {
+        margin: 5px 0;
+    }
+
+    .search input {
+        height: 50px;
+        font-size: 2em;
+    }
+
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+}
